@@ -1,0 +1,71 @@
+"开启语法高亮
+syntax enable
+syntax on
+
+"设置字体
+set guifont=Monaco\ 12
+
+"设置历史记录条数
+set history=2000
+
+"针对不同的文件，采用不同的缩进方式
+"filetype indent on
+
+"允许插件
+"filetype plugin on
+
+"启动自动补全
+"filetype plugin indent on
+
+"文件修改之后自动读入
+set autoread
+
+"启动后不显示提示
+set shortmess=atI
+
+"设置取消备份，禁止临时文件生成
+set nobackup
+set noswapfile
+
+"显示当前行号和列号
+set ruler
+
+"在状态栏显示正在输入命令
+set showcmd
+
+"在左下角显示当前Vim模式
+set showmode
+
+"显示行号
+set number
+
+"设置代码匹配，包括括号匹配情况
+set showmatch
+
+"开启及时搜索
+set incsearch
+
+"设置搜索高亮
+set hls
+
+"当搜索的时候尝试smart
+set smartcase
+
+"设置tab宽度
+set tabstop=4
+set smartindent
+set expandtab
+
+"设置自动对齐空格数
+set shiftwidth=2
+
+"设置编码方式
+set encoding=utf-8
+
+imap { {}<ESC>i<CR><ESC>V<O  
+inoremap( ()<ESC>i
+inoremap[ []<ESC>i
+
+
+
+
